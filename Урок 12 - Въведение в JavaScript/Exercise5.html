@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 5</title>
+</head>
+<body>
+    <h1>Въвеждане на данни от потребителя</h1>
+    <button onclick="calculate()">Цъкни</button>
+
+    <script>
+        let x = prompt("Въведете х: ");
+        let y = prompt("Въведете у: ");
+
+        let num1 = parseInt(x);
+        let num2 = parseInt(y);
+
+        function calculate(x, y)
+        {
+            let result = x + y;
+            return result;
+        }
+
+        document.write(calculate(x, y));
+    </script>
+</body>
+</html>

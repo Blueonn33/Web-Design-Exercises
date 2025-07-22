@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 4</title>
+    <style>
+        .genders{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .gendersContainer{
+            margin-bottom: 30px;
+        }
+        .btnSave{
+            background-color: #431264;
+            border: none;
+            padding: 2px 30px;
+            font-size: 15px;
+            color: white;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        .btnSave:hover{
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Радио бутони и отметки</h1>
+    <div class="gendersContainer">
+        <h3 class="genders">Изберете пол:</h3><br>
+        <label for="male">Мъж</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Жена</label>
+        <input type="radio" id="female" value="female" name="gender">
+    </div>
+    <div class="ageRange">
+        <h3>Изберете възраст</h3>
+        <input type="checkbox">1 - 18 <br>
+        <input type="checkbox">19 - 30 <br>
+        <input type="checkbox">31 - 50 <br>
+        <input type="checkbox">51+ <br>
+    </div>
+    <div>
+        <button class="btnSave">Запази</button>
+    </div>
+</body>
+</html>
