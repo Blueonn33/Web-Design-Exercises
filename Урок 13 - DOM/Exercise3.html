@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 3</title>
+    <link href="styles/Exercise3.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Елементи по таг</h1>
+
+    <p>Параграф</p>
+    <h4>Заглавие</h4>
+    <p>Параграф</p>
+    <h4>Заглавие</h4>
+    <p>Параграф</p>
+    <h4>Заглавие</h4>
+    <button class="btn" onclick="changeColor()">Оцвети</button>
+    <script>
+      function changeColor() {
+        const items = document.getElementsByTagName("p");
+        for (let i = 0; i < items.length; i++) {
+          items[i].style.color = "red";
+        }
+      }
+    </script>
+  </body>
+</html>

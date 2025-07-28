@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 1</title>
+    <link href="styles/Exercise1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="heading">Заглавие на страницата</h1>
+    <button onclick="changeText()" class="change btn">Промени</button>
+    <button onclick="returnText()" class="return btn">Върни</button>
+  </body>
+  <script>
+    function changeText() {
+      document.getElementById("heading").innerHTML = "Ново заглавие";
+      document.getElementById("heading").style.color = "#431264";
+      document.getElementById("heading").style.backgroundColor = " #d9d9d9";
+      document.getElementById("heading").style.padding = "20px";
+    }
+
+    function returnText() {
+      document.getElementById("heading").innerHTML = "Заглавие на страницата";
+      document.getElementById("heading").style.color = "white";
+      document.getElementById("heading").style.backgroundColor = " #777";
+      document.getElementById("heading").style.padding = "20px";
+    }
+  </script>
+</html>

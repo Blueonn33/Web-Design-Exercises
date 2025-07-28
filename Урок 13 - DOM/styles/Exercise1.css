@@ -1,0 +1,24 @@
+.btn {
+  padding: 2px 20px;
+  font-size: 20px;
+  border-radius: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.change {
+  background-color: #431264;
+  color: white;
+}
+.change:hover {
+  background-color: white;
+  color: #431264;
+}
+.return {
+  background-color: white;
+  color: #431264;
+}
+.return:hover {
+  background-color: #431264;
+  color: white;
+}

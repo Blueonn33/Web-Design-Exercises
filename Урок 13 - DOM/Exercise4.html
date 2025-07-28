@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 4</title>
+  </head>
+  <body>
+    <h1>Промяна на цвета</h1>
+
+    <h2 id="heading">Промени ми цвета</h2>
+    <button onclick="changeColor()">Промени</button>
+    <button onclick="returnColor()">Върни</button>
+    <script>
+      function changeColor() {
+        document.getElementById("heading").style.color = "red";
+      }
+      function returnColor() {
+        document.getElementById("heading").style.color = "black";
+      }
+    </script>
+  </body>
+</html>

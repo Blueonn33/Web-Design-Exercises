@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 2</title>
+    <link href="styles/Exercise2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Списъци</h1>
+    <ul>
+      <li class="unordered">Параграф</li>
+      <li class="unordered">Параграф</li>
+      <li class="unordered">Параграф</li>
+    </ul>
+    <ol>
+      <li class="ordered">Параграф</li>
+      <li class="ordered">Параграф</li>
+      <li class="ordered">Параграф</li>
+    </ol>
+    <button class="btn" onclick="changeTextColor()">Промени цвета</button>
+    <button class="btn" onclick="changeBackgroundColor()">Промени фона</button>
+    <script>
+      function changeTextColor() {
+        const items = document.getElementsByClassName("unordered");
+        for (let i = 0; i < items.length; i++) {
+          items[i].style.color = "red";
+        }
+      }
+      function changeBackgroundColor() {
+        const items = document.getElementsByClassName("ordered");
+        for (let i = 0; i < items.length; i++) {
+          items[i].style.backgroundColor = "red";
+        }
+      }
+    </script>
+  </body>
+</html>
