@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 8</title>
+    <link href="styles/Exercise7.css" rel="stylesheet" />
+    <style>
+      .buttonsContainer {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Стилизиране на снимки</h1>
+
+    <img src="images/Image5.jpg" id="first" />
+    <img src="images/Image4.jpg" id="second" />
+    <img src="images/Image3.jpg" id="third" />
+
+    <div class="buttonsContainer">
+      <button onclick="changeImage1()">Снимка 1</button>
+      <button onclick="changeImage2()">Снимка 2</button>
+      <button onclick="changeImage3()">Снимка 3</button>
+    </div>
+
+    <script>
+      function changeImage1() {
+        const image = document.getElementById("first");
+        image.style.borderTop = "10px solid black";
+        image.style.borderLeft = "10px solid black";
+        image.style.borderRight = "10px solid black";
+        image.style.borderBottomLeftRadius = "50px";
+        image.style.borderBottomRightRadius = "50px";
+      }
+      function changeImage2() {
+        const image = document.getElementById("second");
+        image.style.borderTop = "8px dashed purple";
+        image.style.borderBottom = "8px dashed purple";
+        image.style.borderRadius = "20px";
+      }
+      function changeImage3() {
+        const image = document.getElementById("third");
+        image.style.borderTop = "10px solid blue";
+        image.style.borderBottom = "10px solid blue";
+        image.style.borderTopLeftRadius = "100px";
+        image.style.borderBottomRightRadius = "100px";
+      }
+    </script>
+  </body>
+</html>

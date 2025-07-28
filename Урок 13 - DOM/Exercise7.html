@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 7</title>
+    <link href="styles/Exercise7.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Картинки</h1>
+
+    <img src="images/Image1.jpg" id="first" class="images" />
+    <img src="images/Image2.jpg" id="second" class="images" />
+    <img src="images/Image3.jpg" id="third" class="images" />
+
+    <button onclick="changeImage()">Промени снимката</button>
+
+    <script>
+      function changeImage() {
+        const number = Math.floor(Math.random() * 3);
+        const elements = document.getElementsByClassName("images");
+        elements[number].src = "images/Image4.jpg";
+      }
+    </script>
+  </body>
+</html>

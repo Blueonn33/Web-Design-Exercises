@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 6</title>
+  </head>
+  <body>
+    <h1>Премахване на елементи</h1>
+
+    <ul id="list">
+      <li>Кафе</li>
+      <li>Чай</li>
+      <li>Портокалов сок</li>
+      <li>Айрян</li>
+    </ul>
+    <button onclick="removeFirstElement()">Премахни първия</button>
+    <button onclick="removeLastElement()">Премахни последния</button>
+    <script>
+      function removeFirstElement() {
+        const elements = document.getElementById("list");
+        elements.removeChild(elements.firstElementChild);
+      }
+      function removeLastElement() {
+        const elements = document.getElementById("list");
+        elements.removeChild(elements.firstElementChild);
+      }
+    </script>
+  </body>
+</html>
