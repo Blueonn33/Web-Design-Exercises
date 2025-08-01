@@ -1,0 +1,32 @@
+.flexContainer {
+  display: flex;
+  width: 700px;
+  height: 300px;
+  background-color: antiquewhite;
+  align-items: center;
+  gap: 20px;
+}
+.el {
+  border: 2px solid black;
+  flex-basis: 200px;
+  color: white;
+  height: 60px;
+}
+.el-1 {
+  background-color: rgb(219, 56, 41);
+}
+.el-2 {
+  background-color: blueviolet;
+}
+.el-3 {
+  background-color: cadetblue;
+}
+.el-4 {
+  background-color: chocolate;
+}
+.el-5 {
+  background-color: cornflowerblue;
+}
+.el-6 {
+  background-color: darkgreen;
+}
