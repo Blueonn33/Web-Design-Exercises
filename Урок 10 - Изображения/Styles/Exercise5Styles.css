@@ -1,0 +1,14 @@
+.row {
+  background-color: antiquewhite;
+  display: flex;
+  width: 600px;
+  height: 150px;
+}
+.white {
+  background-color: rgb(198, 188, 188);
+  flex-grow: 1;
+}
+.black {
+  background-color: black;
+  flex-grow: 1;
+}
