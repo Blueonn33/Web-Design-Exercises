@@ -1,0 +1,13 @@
+form {
+  width: 600px;
+  border: 3px solid black;
+  padding: 20px;
+  background-color: rgb(143, 240, 239);
+}
+input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+textarea {
+  width: 100%;
+}
