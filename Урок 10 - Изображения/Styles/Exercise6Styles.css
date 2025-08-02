@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 40px;
+}
+.firstNavList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #431264;
+  margin-bottom: 100px;
+}
+.listItem {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+}
+.item {
+  color: white;
+  text-decoration: none;
+}
+.item:link:hover {
+  text-decoration: underline;
+}
+.item:active {
+  color: black;
+}
+
+/* Втори */
+.secondNav {
+  list-style: none;
+  background-color: #431264;
+  display: flex;
+  margin-bottom: 100px;
+}
+.navImage {
+  width: 50px;
+  height: auto;
+  padding: 5px 5px;
+}
