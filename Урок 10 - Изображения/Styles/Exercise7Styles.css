@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 40px 0;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(178, 206, 231);
+}
+.movieImage {
+  width: auto;
+  height: 500px;
+  border: 5px solid #431264;
+  border-radius: 20px;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.starsContainer {
+  display: flex;
+  gap: 20px;
+}
+.star {
+  width: 30px;
+  height: auto;
+}
+.btn {
+  background-color: #431264;
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  font-size: 20px;
+  margin: 30px 0;
+  border-radius: 20px;
+}
+.btn:hover {
+  outline: 2px solid #431264;
+  background-color: white;
+  color: #431264;
+  cursor: pointer;
+}
