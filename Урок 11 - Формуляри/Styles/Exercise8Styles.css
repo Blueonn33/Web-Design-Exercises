@@ -1,0 +1,30 @@
+.container {
+  border: 3px solid black;
+  border-collapse: collapse;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 200px 100px;
+  grid-template-areas:
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+.item {
+  border: 3px solid black;
+}
+.item1 {
+  grid-area: header;
+  background-color: orange;
+}
+.item2 {
+  grid-area: main;
+  background-color: aqua;
+}
+.item3 {
+  grid-area: sidebar;
+  background-color: tomato;
+}
+.item4 {
+  grid-area: footer;
+  background-color: greenyellow;
+}
