@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 0 100px;
+}
+h1 {
+  text-align: center;
+  color: #1a98af;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #1a98af;
+  letter-spacing: 2px;
+}
+img {
+  border-radius: 20px;
+}
+p {
+  font-size: 20px;
+  font-style: italic;
+}
+li {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+}
+button {
+  background-color: #1a98af;
+  color: white;
+  border: none;
+  padding: 3px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+span {
+  color: #1a98af;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
