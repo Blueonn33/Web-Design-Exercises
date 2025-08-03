@@ -1,0 +1,18 @@
+table,
+th {
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+th {
+  padding: 20px;
+}
+td {
+  text-align: center;
+  border: 3px solid red;
+}
+.days {
+  background-color: antiquewhite;
+}
+.subjects {
+  background-color: aquamarine;
+}
