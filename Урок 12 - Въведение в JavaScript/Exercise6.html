@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 6</title>
+    <link href="Styles/Exercise6Styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Смяна</h1>
+    <div class="container" id="container">
+      <h3>Случаен текст</h3>
+      <img src="Images/Meme1.jpg" class="image" id="image" />
+      <div class="buttonsContainer">
+        <button onclick="changeImage()">Снимка</button>
+        <button onclick="changeBackground()">Фон</button>
+      </div>
+    </div>
+    <script>
+      function changeImage() {
+        let number = Math.floor(Math.random() * 5 + 1);
+        document.getElementById("image").src = "Images/Meme" + number + ".jpg";
+      }
+      function changeBackground() {
+        let colors = ["red", "blue", "green", "brown", "#431264"];
+        let number = Math.floor(Math.random() * colors.length);
+        document.getElementById("container").style.backgroundColor =
+          colors[number];
+        document.querySelector("h3").style.color = "white";
+      }
+    </script>
+  </body>
+</html>
