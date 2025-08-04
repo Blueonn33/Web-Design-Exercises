@@ -1,0 +1,26 @@
+body {
+  margin: 30px;
+}
+.container {
+  border: 5px solid black;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.container1 {
+  background-color: chocolate;
+}
+.container2 {
+  background-color: cadetblue;
+}
+.container3 {
+  background-color: cornsilk;
+}
+.container4 {
+  background-color: darkcyan;
+}
+.container5 {
+  background-color: blanchedalmond;
+}
+.container6 {
+  background-color: darkslategrey;
+}
