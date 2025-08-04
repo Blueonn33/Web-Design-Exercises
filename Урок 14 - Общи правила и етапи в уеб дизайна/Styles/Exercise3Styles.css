@@ -1,2 +1,21 @@
-.imageContainer {
+body {
+  margin: 50px;
+}
+.container {
+  border: 4px solid black;
+  background-color: aquamarine;
+  display: grid;
+  justify-content: center;
+}
+.contentContainer {
+  border: 5px solid white;
+  padding: 0 20px;
+}
+.col {
+  padding: 0;
+}
+img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
 }
