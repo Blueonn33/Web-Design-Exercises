@@ -1,0 +1,18 @@
+.col {
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.col--1 {
+  background-color: aqua;
+}
+.col--2 {
+  background-color: rgb(135, 87, 189);
+}
+.col--3 {
+  background-color: rgb(91, 24, 35);
+}
+.col--4 {
+  background-color: rgb(0, 255, 76);
+}
