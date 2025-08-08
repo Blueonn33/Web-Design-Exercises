@@ -1,0 +1,49 @@
+header {
+  background-color: cornflowerblue;
+}
+.heading {
+  display: inline;
+}
+.image {
+  margin-top: 10px;
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.navList {
+  list-style-type: none;
+  background-color: antiquewhite;
+}
+.nav-item {
+  margin-right: 30px;
+  display: inline;
+}
+a:link {
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+a:active {
+  color: black;
+}
+.images {
+  width: auto;
+  height: 270px;
+}
+.container {
+  background-color: blanchedalmond;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+.textList {
+  font-size: 30px;
+}
+.text-item:nth-child(even) {
+  background-color: blanchedalmond;
+}
