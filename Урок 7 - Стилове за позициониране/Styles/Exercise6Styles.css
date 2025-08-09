@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  border: 5px solid #431264;
+  margin-top: 50px;
+}
+header {
+  text-align: center;
+  background-color: #8343a0;
+  border-bottom: 5px solid white;
+}
+.heading {
+  margin: 0;
+}
+.headerSpan {
+  color: white;
+}
+.rankingContainer {
+  position: absolute;
+  top: -20px;
+  right: -35px;
+  background-color: rgb(147, 147, 225);
+  color: white;
+  width: 70px;
+  border: 3px solid #230b2e;
+  font-size: 20px;
+}
+section {
+  background-color: #230b2e;
+}
+.imageContainer {
+  padding: 30px 0;
+  border-bottom: 3px solid white;
+}
+.songImage {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.buttonContainer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.buttonVideo {
+  background-color: #8343a0;
+  color: white;
+  font-size: 25px;
+  padding: 3px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.buttonVideo:hover {
+  background-color: white;
+  color: #8343a0;
+  cursor: pointer;
+}
