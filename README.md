@@ -2,9 +2,9 @@
 - За специалност `Информационно брокерство и дигитални медии`, 3-ти курс (5-ти семестър)
 
 ## 📺 Презентации
-`1.` <a href="https://www.canva.com/design/DAGpeHRP3y8/FYr1fyPcpILfmzPQUFMakQ/edit?utm_content=DAGpeHRP3y8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Уеб дизайн и технологии</a> 
-`2.` <a href="https://www.canva.com/design/DAGqER6X1qs/4xdCcThd0i2mQ7-ZBbYh6g/edit?utm_content=DAGqER6X1qs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">HTML синтаксис</a>
-`3.` <a href="https://www.canva.com/design/DAGqESwa--w/B9vs8jvhSISChNkLI7SLNg/edit?utm_content=DAGqESwa--w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Основни тагове в HTML</a>
+`1.` <a href="https://www.canva.com/design/DAGpeHRP3y8/FYr1fyPcpILfmzPQUFMakQ/edit?utm_content=DAGpeHRP3y8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Уеб дизайн и технологии</a> <br />
+`2.` <a href="https://www.canva.com/design/DAGqER6X1qs/4xdCcThd0i2mQ7-ZBbYh6g/edit?utm_content=DAGqER6X1qs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">HTML синтаксис</a> <br />
+`3.` <a href="https://www.canva.com/design/DAGqESwa--w/B9vs8jvhSISChNkLI7SLNg/edit?utm_content=DAGqESwa--w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Основни тагове в HTML</a> <br />
  
 ## 📜 Конспект
 
