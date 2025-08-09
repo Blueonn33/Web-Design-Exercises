@@ -2,7 +2,7 @@
 - За специалност `Информационно брокерство и дигитални медии`, 3-ти курс (5-ти семестър)
 
 ## 📺 Презентации
-`1.` <a style="padding-right:30px;" href="https://www.canva.com/design/DAGpeHRP3y8/FYr1fyPcpILfmzPQUFMakQ/edit?utm_content=DAGpeHRP3y8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Уеб дизайн и технологии</a> 
+`1.` <a style="padding-right:30px; display:block" href="https://www.canva.com/design/DAGpeHRP3y8/FYr1fyPcpILfmzPQUFMakQ/edit?utm_content=DAGpeHRP3y8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Уеб дизайн и технологии</a> 
 
  
 ## 📜 Конспект
