@@ -1,0 +1,45 @@
+body {
+  padding: 20px;
+}
+#btn1 {
+  background-color: transparent;
+  border: 5px solid #431264;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-right: 50px;
+}
+#btn1:hover {
+  background-color: #8343a0;
+  color: black;
+  cursor: pointer;
+}
+#btn2 {
+  background-color: transparent;
+  border: 2px solid #431264;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-right: 50px;
+}
+#btn2:hover {
+  color: white;
+  background-color: #431264;
+}
+#btn3 {
+  background-color: #431264;
+  border: 2px solid #431264;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-right: 50px;
+  color: white;
+}
+#btn3:hover {
+  color: black;
+  background-color: transparent;
+}
+#btn4 {
+  font-size: 20px;
+  padding: 10px 40px;
+}
