@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задача 11</title>
+    <link href="styles/Exercise11.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formContainer">
+        <form>
+          <div class="elementsContainer">
+            <label for="formName" class="formLabel">Име</label>
+            <input name="Name" class="formInput" id="formName" />
+          </div>
+          <div class="elementsContainer">
+            <label for="formAge" class="formLabel">Възраст</label>
+            <input name="Age" class="formInput" id="formAge" />
+          </div>
+          <div class="elementsContainer">
+            <label for="formJob" class="formLabel">Работа</label>
+            <input name="Job" class="formInput" id="formJob" />
+          </div>
+        </form>
+      </div>
+      <div class="flexContainer">
+        <div class="inputsContainer">
+          <div class="inputContentContainer">
+            <label for="enterName" class="labelEnter">Име</label>
+            <input
+              name="enterName"
+              class="inputEnter"
+              id="enterName"
+              placeholder="Въведи име..."
+            />
+          </div>
+          <div class="inputContentContainer">
+            <label for="enterAge" class="labelEnter">Възраст</label>
+            <input
+              name="enterAge"
+              class="inputEnter"
+              id="enterAge"
+              placeholder="Въведи възраст..."
+            />
+          </div>
+          <div class="inputContentContainer">
+            <label for="enterJob" class="labelEnter">Работа</label>
+            <input
+              name="enterJob"
+              class="inputEnter"
+              id="enterJob"
+              placeholder="Въведи работа..."
+            />
+          </div>
+          <div class="buttonContainer">
+            <button
+              class="btnSubmit"
+              onclick="fillForm('formName', 'enterName')"
+            >
+              Име
+            </button>
+            <button class="btnSubmit" onclick="fillForm('formAge', 'enterAge')">
+              Години
+            </button>
+            <button class="btnSubmit" onclick="fillForm('formJob', 'enterJob')">
+              Работа
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/Exercise11Script.js"></script>
+  </body>
+</html>
