@@ -1,0 +1,19 @@
+#serif {
+  font-family: serif;
+  color: blue;
+}
+#sans-serif {
+  font-family: sans-serif;
+  color: red;
+}
+#monospace {
+  font-family: monospace;
+  color: gray;
+}
+#cursive {
+  font-family: cursive;
+}
+#fantasy {
+  font-family: fantasy;
+  color: purple;
+}

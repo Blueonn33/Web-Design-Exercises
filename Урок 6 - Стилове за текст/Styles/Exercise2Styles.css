@@ -1,0 +1,21 @@
+#heading1 {
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(109, 190, 190);
+}
+#heading2 {
+  color: purple;
+  text-align: center;
+  background-color: rgb(158, 190, 190);
+  font-size: 50px;
+}
+#heading3 {
+  color: white;
+  text-align: center;
+  background-color: bisque;
+  font-size: 50px;
+  text-decoration: underline;
+  text-decoration-color: purple;
+}
