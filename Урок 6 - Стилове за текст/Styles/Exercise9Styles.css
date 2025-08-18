@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #1d2a35;
+}
+header {
+  padding: 20px;
+  position: relative;
+  height: 100px;
+}
+h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 40px;
+}
+button {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.left {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.right {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+section {
+  padding: 20px;
+  color: white;
+}
+.noteContainer {
+  padding: 10px 0 0 0;
+}
+.note {
+  padding: 20px;
+  background-color: #fff4a3;
+  color: black;
+}
