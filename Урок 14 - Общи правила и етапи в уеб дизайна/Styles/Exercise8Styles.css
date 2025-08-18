@@ -1,0 +1,25 @@
+body {
+  position: relative;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.element {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+}
+.buyContainer {
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  visibility: hidden;
+}
+.buyContentContainer {
+  background-color: aquamarine;
+  padding: 20px;
+  border-left: 5px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
