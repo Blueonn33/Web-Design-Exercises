@@ -1,0 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 535px;
+  display: block;
+  margin: auto;
+}
+.firstImageContainer {
+  background-color: #114323;
+}
+.secondImageContainer {
+  background-color: #111e43;
+}
+.thirdImageContainer {
+  background-color: #a69a12;
+}
