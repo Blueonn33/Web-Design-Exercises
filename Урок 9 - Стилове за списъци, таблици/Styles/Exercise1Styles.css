@@ -1,0 +1,12 @@
+.circles {
+  list-style-type: circle;
+}
+.squares {
+  list-style-type: square;
+}
+.upperRoman {
+  list-style-type: upper-roman;
+}
+.lowerAlpha {
+  list-style-type: lower-alpha;
+}

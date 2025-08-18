@@ -1,0 +1,18 @@
+.red {
+  background-color: #ff9999;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.firstList {
+  margin-left: 20px;
+  background-color: #ffe5e5;
+  margin-left: 20px;
+}
+.blue {
+  padding: 10px;
+  background-color: #3399ff;
+}
+.secondList li {
+  margin: 5px;
+  background-color: #cce5ff;
+}

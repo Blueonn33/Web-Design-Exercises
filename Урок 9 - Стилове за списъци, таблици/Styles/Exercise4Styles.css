@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+  text-align: center;
+}
+th,
+td {
+  border-bottom: 3px solid rgb(163, 31, 31);
+}
+tr:hover {
+  background-color: rgb(241, 87, 87);
+}
