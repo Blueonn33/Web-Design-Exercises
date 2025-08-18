@@ -1,0 +1,29 @@
+.allBrowsers {
+  background-color: rgb(193, 202, 210);
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+}
+.browser {
+  background-color: white;
+  padding: 0 10px;
+  border-left: 5px solid blue;
+}
+p {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+.buttonContainer {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+a {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 15px;
+}
