@@ -1,0 +1,16 @@
+[alt~="indigo"] {
+  border: 10px solid #431264;
+}
+[alt$="Roses"] {
+  border: 10px solid #641238;
+}
+[alt|="flower"] {
+  border: 10px solid #7a21b6;
+}
+img {
+  width: auto;
+  height: 400px;
+}
+img:hover {
+  opacity: 0.6;
+}
