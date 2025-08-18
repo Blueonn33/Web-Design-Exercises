@@ -1,0 +1,27 @@
+.firstContainer {
+  border: 5px solid #431264;
+  padding: 20px;
+}
+.firstContainer + h3 {
+  color: #431264;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+.secondContainer {
+  border: 5px solid #124564;
+  padding: 20px;
+}
+.secondContainer > p {
+  color: #124564;
+  font-weight: bold;
+  font-size: 18px;
+}
+.firstHR {
+  border-top: 5px solid #431264;
+  border-radius: 5px;
+}
+.secondHR {
+  border-top: 5px solid #124564;
+  border-radius: 5px;
+}
