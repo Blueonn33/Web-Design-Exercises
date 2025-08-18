@@ -1,0 +1,17 @@
+.container {
+  border: 8px dashed rgb(66, 66, 170);
+  margin: 50px;
+  margin-bottom: 0;
+}
+img {
+  float: left;
+  clip-path: circle(30%);
+  shape-outside: circle(39%);
+  width: 500px;
+  margin-top: 25px;
+}
+p {
+  margin: 40px;
+  font-size: 25px;
+  text-align: justify;
+}
