@@ -1,0 +1,22 @@
+.purpleContainer p,
+.purpleContainer h3,
+.purpleContainer h5 {
+  color: #431264;
+}
+.purpleContainer p {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.purpleContainer h3 {
+  font-size: 33px;
+}
+
+.blueContainer p,
+h3,
+h5 {
+  color: #125465;
+}
+h3 ~ h5 {
+  color: black !important;
+}
