@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+form {
+  padding: 40px;
+  background-color: antiquewhite;
+  width: 500px;
+}
+form div {
+  display: grid;
+}
+textarea {
+  max-width: 460px;
+  min-width: 460px;
+  min-height: 60px;
+  height: 60px;
+  max-height: 100px;
+}
+.btnContainer {
+  margin-top: 20px;
+  height: 40px;
+}
