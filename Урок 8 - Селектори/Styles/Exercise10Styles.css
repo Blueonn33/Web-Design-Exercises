@@ -1,0 +1,20 @@
+.container {
+  background-color: antiquewhite;
+  border: 10px solid black;
+  border-radius: 30px;
+}
+.styleText::first-letter {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+}
+.styleText::first-line {
+  font-size: 30px;
+  letter-spacing: 5px;
+  line-height: 100px;
+  background-color: white;
+}
+.styleText {
+  padding: 20px;
+  line-height: 25px;
+}
