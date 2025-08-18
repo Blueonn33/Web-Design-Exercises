@@ -1,0 +1,29 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+  border: 3px solid black;
+}
+.container div {
+  padding-left: 20px;
+}
+.firstContainer {
+  border: 3px solid blue;
+  width: 600px;
+  white-space: nowrap;
+}
+.secondContainer {
+  border: 3px solid red;
+  width: 600px;
+  white-space: wrap;
+}
+.thirdContainer {
+  border: 3px solid rgb(0, 255, 174);
+  width: 600px;
+  word-break: break-all;
+}
+.fourthContainer {
+  border: 3px solid rgb(170, 255, 0);
+  width: 600px;
+  word-break: keep-all;
+}
