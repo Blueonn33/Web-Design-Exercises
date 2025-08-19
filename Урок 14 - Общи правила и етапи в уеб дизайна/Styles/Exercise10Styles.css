@@ -1,0 +1,24 @@
+.container {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: justify;
+  text-indent: 30px;
+  word-break: break-all;
+}
+img {
+  border: 3px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
