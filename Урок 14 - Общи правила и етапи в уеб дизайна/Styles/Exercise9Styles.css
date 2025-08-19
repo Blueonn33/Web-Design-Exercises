@@ -1,0 +1,58 @@
+.container {
+  background-color: #33243c;
+  color: white;
+  border-radius: 10px;
+}
+.heading {
+  text-align: center;
+}
+hr {
+  border-top: 5px solid white;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+img {
+  border: 6px solid white;
+  border-radius: 10px;
+}
+.skin {
+  background-color: #46394d;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.actionContainer {
+  height: 15px;
+  width: 100%;
+  background-color: white;
+}
+.attack {
+  height: 15px;
+  width: 85%;
+  background-color: red;
+}
+.shield {
+  height: 15px;
+  width: 90%;
+  background-color: rgb(0, 128, 255);
+}
+.speed {
+  height: 15px;
+  width: 97%;
+  background-color: rgb(0, 255, 200);
+}
+.price {
+  background-color: rgb(118, 173, 155);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+}
+.info p {
+  border-left: 6px solid white;
+}
