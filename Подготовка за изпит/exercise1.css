@@ -1,0 +1,66 @@
+h1 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-align: left;
+  margin-bottom: 50px;
+}
+ol {
+  font-size: 40px;
+  list-style-type: upper-roman;
+  color: red;
+}
+ul {
+  font-size: 40px;
+  list-style-type: circle;
+}
+a {
+  font-size: 50px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 100px;
+}
+a:hover {
+  color: green;
+}
+
+table {
+  font-size: 30px;
+}
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: center;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
+.grid-container {
+  width: 500px;
+  background-color: #431264;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  border: 5px solid #0b4fee;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.grid-item {
+  background-color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
