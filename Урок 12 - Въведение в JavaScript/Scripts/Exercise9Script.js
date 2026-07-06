@@ -2,7 +2,7 @@ const martin = {
   firstName: "Мартин",
   birthYear: 2004,
   calculateAge(birthYear) {
-    return 2025 - birthYear;
+    return 2026 - birthYear;
   },
   town: "Горна Оряховица",
   job: "програмист",
