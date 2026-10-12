@@ -1,5 +1,8 @@
-## 💻 Упражнения по "Уеб дизайн"
+# 💻 Упражнения по "Уеб дизайн"
 - За специалност `Информационно брокерство и дигитални медии`, 3-ти курс (5-ти семестър)
+
+## 📜 Документация
+- Документация за всяка една тема: https://uni-docs.netlify.app/
 
 ## 📺 Презентации
 `1.` <a href="https://www.canva.com/design/DAGpeHRP3y8/FYr1fyPcpILfmzPQUFMakQ/edit?utm_content=DAGpeHRP3y8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Уеб дизайн и технологии</a> <br />
