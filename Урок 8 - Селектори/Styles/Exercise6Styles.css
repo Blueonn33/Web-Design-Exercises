@@ -2,7 +2,6 @@
   display: grid;
   border: 5px solid black;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: auto;
   margin-top: 50px;
   padding: 20px;
   background-color: #73577c;

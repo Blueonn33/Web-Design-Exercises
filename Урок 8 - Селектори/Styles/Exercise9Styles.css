@@ -18,5 +18,5 @@ h5 {
   color: #125465;
 }
 h3 ~ h5 {
-  color: black !important;
+  color: red;
 }
